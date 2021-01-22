@@ -4,7 +4,7 @@ const fs = require("fs");
 const proxyquire = require("proxyquire");
 const fileManagement = require("./file.management");
 
-describe.only("File Management Fake", function () {
+describe.skip("File Management Fake", function () {
     afterEach(() => {
         sinon.restore();
     });
